@@ -1,0 +1,76 @@
+/* First Flex */
+.mainHeader {
+	background-color: rgb(113, 177, 232);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-family: "Inconsolata", monospace;
+}
+
+/* Indide Flex */
+.titleAndDescription {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.title {
+	font-size: 50px;
+}
+
+.description {
+	font-size: 30px;
+}
+
+/* End Indide Flex */
+
+.picture {
+}
+
+#anony {
+	width: 500px;
+	height: 500px;
+	background-color: aquamarine;
+}
+
+/* End First Flex */
+
+/* About Me Flex */
+.biography {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-family: "Inconsolata", monospace;
+}
+/* End About Me Flex */
+
+/* Portfolio Flex */
+.portfolio {
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(113, 177, 232);
+}
+
+.centered-text {
+	text-align: center;
+}
+
+/* Projects Flex */
+.projects {
+	display: flex;
+	justify-content: center;
+}
+
+.projectsImages {
+	width: 400px;
+	height: 400px;
+}
+
+/* Induvidul Project Flex*/
+.individual-projects {
+}
+/* End Induvidul Project Flex*/
+
+/* End Projects Flex */
+
+/* End Portfolio flex */
